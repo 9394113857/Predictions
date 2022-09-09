@@ -1,0 +1,47 @@
+
+In the Application flow:-
+1.Procfile (without any extension):-
+1.write this content as text and save the file
+web: gunicorn app:app
+-> Save the file
+2.pip commands:-
+1.Save the updated configurations or libraries to requirements.txt:-
+py -m or pip freeze > requirements.txt
+
+3.Install requirements.txt:-
+py -m pip install -r requirements.txt
+
+3.Install specific requirements:-
+py -m or pip install flask
+
+4.Upgrade pip:-
+py -m or pip install --upgrade pip
+3.Git Commands:-
+1.	git init
+2.	git checkout -b <YourName>
+3.	git status
+4.	git add <YourFiles>
+5.	git commit -m <YourCommitMessage>
+6.	git branch -b <YourName>
+7.	git remote add origin <paste your git link>
+8.	git push -u origin <YourName>
+
+
+If the destination branch does not exist, you have to append the “-b” option, otherwise you won’t be able to switch to that branch.
+
+$ git checkout <existing_branch>
+
+$ git checkout -b <new_branch>
+
+// delete branch locally
+
+git branch -d localBranchName
+
+// delete branch remotely
+
+git push origin --delete remoteBranchName
+
+
+
+
+
